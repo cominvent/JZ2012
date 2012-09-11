@@ -28,6 +28,7 @@
 	<classpathentry kind="lib" path="lib/slf4j-api-1.6.4.jar"/>
 	<classpathentry kind="lib" path="lib/wikixmlj-r43-doc_4.3.0.jar"/>
 	<classpathentry kind="lib" path="lib/wstx-asl-3.2.7.jar"/>
-	<classpathentry kind="lib" path="lib/wiki.jar"/>
+	<classpathentry kind="lib" path="lib/wikixmlj-r43_4.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/zookeeper-3.3.6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

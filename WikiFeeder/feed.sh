@@ -1,2 +1,2 @@
 #/bin/sh
-java -cp "lib/*.jar:target/classes" com.cominvent.javazone.WikiFeeder $*
+java -Dfile.encoding=UTF-8 -cp "lib/*:target/classes" com.cominvent.javazone.WikiFeeder $*

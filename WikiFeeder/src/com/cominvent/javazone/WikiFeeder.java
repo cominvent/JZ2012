@@ -91,7 +91,7 @@ public class WikiFeeder {
 					System.out.print(".");
 					return;
 				}					
-				System.out.println("Indexing page " + page.getTitle().trim() + " - "+page.getCategories()+ " -- "+page.getWikiText());
+				System.out.println("Indexing page " + page.getTitle().trim() + " - "+page.getCategories());
 				SolrInputDocument doc = new SolrInputDocument();
 				doc.setField("title", page.getTitle());
 				doc.setField("url", "http://no.wikipedia.org/wiki/"+page.getTitle());
